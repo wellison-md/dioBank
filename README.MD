@@ -19,10 +19,14 @@ Este projeto faz parte do módulo básico :seedling: do curso **"Formação Full
 2. Instale as dependências do projeto
     ```
     npm i -g typescript
+    ```
+    ```
     npm i -g ts-node
+    ```
+    ```
     npm i -g ts-node-dev
     ```
-
+    
 3. Execute o projeto e divirta-se ;)
     ```
      npm run dev
