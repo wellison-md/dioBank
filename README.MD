@@ -1,5 +1,7 @@
 # dioBank
 
+![](https://github.com/wellison-md/dioBank/blob/main/assets/main-banner.png)
+
 ## Projeto desenvolvido com os fundamentos de Typescript <br><br>
 
 Este projeto faz parte do módulo básico :seedling: do curso **"Formação FullStack Typescript"** oferecido pela plataforma Digital Innovation One - DIO. Nesta etapa inicial desenvolvemos o escopo básico de um Banco Digital, o dioBank e suas funções fundamentais, como sacar, depositar e validações. 
@@ -26,7 +28,7 @@ Este projeto faz parte do módulo básico :seedling: do curso **"Formação Full
     ```
     npm i -g ts-node-dev
     ```
-    
+
 3. Execute o projeto e divirta-se ;)
     ```
      npm run dev
