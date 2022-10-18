@@ -22,20 +22,25 @@ export abstract class DioAccount{
         if(this.validateStatus() && amount > 0){
             this.balance += amount
             console.log(`amount of RS ${amount.toFixed(2)} deposited with success`)
-        }else{
-            console.log('invalid deposit')
         }
    }
 
     withdraw = (amount: number):void =>{
-        //if(!this.validateStatus()){console.log('invalid account')}
-        if(this.balance > 0 && this.balance <= amount){
-            this.balance -= amount
+        if(this.validateStatus()){
+            if(this.getBalance() > 0 && this.getBalance() >= amount){
+                this.balance -= amount
+                console.log(`RS ${amount.toFixed(2)} was withdrew from your account`)
+            }else{
+                console.log("Your balance isn't enough")
+            }
         }
+        
     }
 
-    getBalance = ():void =>{
+    getBalance = ():number =>{
         console.log(`Your balance is RS ${this.balance.toFixed(2)}`)
+        return this.balance
+        //console.log(`Your balance is RS ${this.balance.toFixed(2)}`)
     }
 
     private validateStatus = ():boolean =>{

@@ -44,7 +44,7 @@ Este projeto faz parte do módulo básico :seedling: do curso ***"Formação Ful
 
 - [ ] Implementar os métodos *(deposit)* e saque *(withdraw)* na classe *DioAccount*;
     - Os valores dos saldos devem ser alterados de acordo com o valor informado para depósito;
-    - Apenas contas com o *status* ```true``` e saldo *(balance)* maior que o valor solicitado podem fazer saques; <br><br>
+    - Apenas contas com o *status* ```true``` e saldo *(balance)* maior ou igual que o valor solicitado podem fazer saques; <br><br>
     
 - [ ] Implementar o método de empréstimo *(getLoan)* na classe *CompanyAccount*;
     - Os valores do saldo devem ser acrescidos de acordo com o valor informado para empréstimo;
