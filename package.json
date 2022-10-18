@@ -1,11 +1,11 @@
 {
-  "name": "dioBank",
+  "name": "diobank",
   "version": "1.0.0",
   "description": "![](https://github.com/wellison-md/dioBank/blob/main/assets/main-banner.png)",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev":"ts-node-dev app.ts"
+    "dev": "ts-node-dev app.ts"
   },
   "repository": {
     "type": "git",
